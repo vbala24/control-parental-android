@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textIniciarSesion"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding"
+        android:gravity="center_horizontal"
+        android:text="@string/textIniciarSesion"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/abc_action_bar_title_text_size" />
+
+	<TextView
+	    android:id="@+id/textLogin"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding"
+	    android:text="@string/textLogin"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textSize="@dimen/abc_action_bar_title_text_size" />
+
+	<EditText
+	    android:id="@+id/editTextLogin"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:inputType="text"
+	    android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding" />
+
+	<TextView
+	    android:id="@+id/textPasswoord"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding"
+	    android:text="@string/textPasswoord"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textSize="@dimen/abc_action_bar_title_text_size" />
+
+	<EditText
+	    android:id="@+id/editTextPasswoord"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:inputType="textPassword" />
+
+	<Button
+	    android:id="@+id/btnLogin"
+	    android:layout_width="121dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:onClick="actividadPrincipal"
+	    android:text="@string/btnLogin"
+	    android:textSize="@dimen/abc_action_bar_subtitle_text_size" />
+
+	<TextView
+	    android:id="@+id/textRegistro"
+	    android:layout_width="169dp"
+	    android:layout_height="53dp"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="8dp"
+	    android:gravity="center"
+	    android:text="@string/textRegistro"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textSize="@dimen/abc_action_bar_subtitle_text_size" />
+
+	<TextView
+	    android:id="@+id/textIngresarInformacion"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/textIngresarInformacion"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textSize="@dimen/activity_vertical_margin" />
+
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/abc_action_bar_icon_vertical_padding" >
+
+	    <TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	        <TextView
+		        android:id="@+id/textNombreDocente"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/textNombreDocente" />
+		    <EditText
+		        android:id="@+id/editText1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:inputType="text" />
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/tableRow2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+
+	        <TextView
+	            android:id="@+id/textInfoLogin"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/textLogin" />
+
+	        <EditText
+	            android:id="@+id/editText2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:inputType="text" >
+
+	            <requestFocus />
+	        </EditText>
+
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/tableRow3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+
+	        <TextView
+	            android:id="@+id/textInfoPass"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/textInfoPass" />
+
+	        <EditText
+	            android:id="@+id/editInfoPass"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="text" />
+
+	    </TableRow>
+	</TableLayout>
+
+	<Button
+	    android:id="@+id/btnRegistrar"
+	    android:layout_width="122dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:text="@string/btnRegistrar"
+	    android:textSize="@dimen/abc_action_bar_subtitle_text_size" />
+
+</LinearLayout>
