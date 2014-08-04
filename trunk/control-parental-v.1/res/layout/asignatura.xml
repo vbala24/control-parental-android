@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layasignatura"
+    style="@style/AppBaseTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnlista"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnnotificacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:text="@string/btnllamarlista"
+        android:onClick="LlamarLista" />
+
+    <Button
+        android:id="@+id/btnactividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btncalificar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="@string/btnAdicionarActividad"
+        android:onClick="AdicionarActividad" />
+
+    <Button
+        android:id="@+id/btncalificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnactividad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:minWidth="80dp"
+        android:text="@string/btnCalActividad"
+        android:onClick="Calificar" />
+
+    <Button
+        android:id="@+id/btnnotificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:text="@string/btnNotificar"
+        android:onClick="Notificar" />
+
+</RelativeLayout>

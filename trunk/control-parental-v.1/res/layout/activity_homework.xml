@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tvNombreCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="5"
+        />
+    
+    
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/tvDescripcion"
+        android:layout_below="@+id/tvNombreCurso"        
+        />
+    
+
+    <EditText 
+        android:id="@+id/etDescripcion"        
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	    	    
+	    android:hint="@string/etHintDescripcion"   	
+	    android:gravity="left|top"  
+	    android:inputType="textMultiLine"
+	    android:layout_below="@+id/tvDescripcion" 
+	    android:layout_weight="2"  	    
+        />       
+        
+     <TextView
+        android:id="@+id/tvFecha"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/tvFecha"
+        android:layout_below="@+id/etDescripcion"        
+        />
+     
+     
+     <TextView
+        android:id="@+id/dateDisplay"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"        
+        android:text=""
+        android:layout_below="@+id/etDescripcion"
+        android:layout_toRightOf="@+id/tvFecha"        
+        />
+     
+     <Button 
+         android:id="@+id/pickDate"
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"
+         android:text="@string/btnCambioFecha"
+         android:layout_below="@+id/dateDisplay"         
+        />
+     
+      <TextView
+        android:id="@+id/tvMateriales"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_below="@+id/pickDate"
+        android:text="@string/tvMateriales"        
+         />         
+        
+      <Button 
+         android:id="@+id/Materiales"
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"
+         android:text="@string/btnMateriales"
+         android:layout_below="@+id/tvMateriales"
+         android:onClick="ventanaEmergente"                           
+        />
+      
+     
+   
+    
+    
+    
+    
+</RelativeLayout>

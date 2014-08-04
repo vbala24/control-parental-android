@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ControlParental Bienvenida</string>
+    <string name="asignatura_profesor">Asignaturas</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblAsignatura">Asignaturas</string>
+    <string name="btnllamarlista">Llamar a Lista</string>
+    <string name="btnCalActividad">Calificar Actividad</string>
+    <string name="btnAdicionarActividad">Adicionar Actividad</string>
+    <string name="btnNotificar">Notificar </string>
+    <string name="btnEnviarPadre">Enviar Padre</string>
+    <string name="btnGuardarLista">Guardar/Enviar</string>
+    
+    <string name="btnLogin">Ingresar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textLogin">login:</string>
+    <string name="textPasswoord">Passwoord:</string>
+    <string name="textRegistro">!Si aún no tiene cuenta, Registrese!</string>
+    <string name="textIniciarSesion">Iniciar Sesión </string>
+    <string name="textIngresarInformacion">Ingrese la siguiente información:</string>
+	<string name="btnRegistrar">Registrarme</string>  
+    <string name="updating_db">¡Control Parental en! 3,2,1.. </string>
+    <string name="db_ok">¡Despegamos! ;)</string>
+    <string name="visita_blog">Visita nuestro blog!</string>
+    <string name="quieres_saber">¿Quieres saber como se hace?</string>
+    <string name="textNombreDocente">Nombre:</string>
+    <string name="textInfoPass">Passwoord:</string>
+    
+    
+    <!-- Recursos Alexis -->
+    
+    <string name="tvDescripcion">Descripción:</string>
+    <string name="etHintDescripcion">Escriba una breve descripción</string>
+    <string name="tvFecha">Fecha de entrega: </string>
+    <string name="btnCambioFecha">Cambiar Fecha</string>
+    <string name="btnMateriales">Agregar Materiales</string>
+    <string name="btnMaterial">Agregar Material</string>
+    <string name="tvMateriales">MATERIALES </string>
+    <string name="chBoxOp1">Ega</string>
+    <string name="chBoxOp2">Cartulina</string>
+    <string name="chBoxOp3">Tijeras</string>
+    <string name="chBoxOp4">Marcador</string>
+    <string name="chBoxOp5">todos</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="etMaterial">Escriba el material a agregar</string>
+    
+</resources>

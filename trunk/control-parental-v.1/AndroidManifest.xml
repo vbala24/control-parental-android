@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.controlparental"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+      
+        <activity
+            android:name="com.example.controlparental.BienvenidaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="InicioSesionActivity" android:theme="@style/AppBaseTheme"></activity>
+        <activity android:name="MainActivity" android:theme="@style/AppBaseTheme"></activity>
+        <activity android:name="AsignaturaActivity" android:theme="@style/AppBaseTheme"></activity>
+        <activity android:name="ListaActivity" android:theme="@style/AppBaseTheme"></activity>
+        <activity android:name="AddHomeWorkActivity" android:theme="@style/AppBaseTheme"></activity>
+        <activity android:name="CalificarActividaActivity" android:theme="@style/AppBaseTheme"></activity>
+        <class android:name="Conexion"></class>
+    </application>
+         
+
+</manifest>
